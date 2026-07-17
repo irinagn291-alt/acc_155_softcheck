@@ -1,6 +1,5 @@
 import SwiftData
 
-#if DEBUG
 /// In-memory `AppDependencies` factory for SwiftUI previews only.
 @MainActor
 struct PreviewContainer {
@@ -19,4 +18,3 @@ struct PreviewContainer {
         }
     }
 }
-#endif
