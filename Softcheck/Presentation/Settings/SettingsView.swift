@@ -36,6 +36,8 @@ struct SettingsView: View {
                             .foregroundStyle(AppColor.text.opacity(0.65))
                     }
                     .padding(.vertical, 4)
+                    Link("Contact Us", destination: URL(string: "https://Softina-Checkista.pro/contact-us")!)
+                    Link("Privacy Policy", destination: URL(string: "https://Softina-Checkista.pro/privacy-policy")!)
                 }
 
                 Section {

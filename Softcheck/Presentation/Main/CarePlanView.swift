@@ -39,7 +39,7 @@ struct CarePlanView: View {
                                     Text(practice.description)
                                         .font(.subheadline)
                                         .foregroundStyle(AppColor.text.opacity(0.7))
-                                    Text("~\(practice.duration / 60) min")
+                                    Text("~\(practice.durationLabel)")
                                         .font(.caption)
                                         .foregroundStyle(AppColor.primary)
                                 }
