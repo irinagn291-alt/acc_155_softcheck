@@ -1,6 +1,6 @@
 import SwiftUI
 import SwiftData
-import Alamofire
+@preconcurrency import Alamofire
 
 @main
 struct SoftcheckApp: App {

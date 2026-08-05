@@ -1,5 +1,5 @@
 import UIKit
-import Alamofire
+@preconcurrency import Alamofire
 
 final class AppDelegate: NSObject, UIApplicationDelegate {
 
